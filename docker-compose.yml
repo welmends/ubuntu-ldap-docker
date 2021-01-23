@@ -7,6 +7,6 @@ services:
     build: .
     tty: true
     ports:
-      - '389:389'
+      - '10389:389'
     volumes:
       - './:/home'
