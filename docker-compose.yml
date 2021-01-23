@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  ldap-ubuntu:
+    #image: docker.io/welmends/ubuntu-ldap
+    container_name: ldap-ubuntu
+    hostname: ldap-ubuntu
+    build: .
+    tty: true
+    ports:
+      - '389:389'
+    volumes:
+      - './:/home'
