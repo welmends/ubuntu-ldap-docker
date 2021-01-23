@@ -16,3 +16,15 @@ docker-compose build
 ```shell
 docker-compose up -d
 ```
+
+## Comments
+
+### Ldap installation on docker image:
+
+```shell
+apt install slapd ldap-utils
+```
+
+```shell
+dpkg-reconfigure slapd
+```
