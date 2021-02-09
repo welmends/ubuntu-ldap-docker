@@ -1,3 +1,11 @@
 dn: ou=users,dc=example,dc=com
 objectClass: organizationalUnit
 ou: users
+
+dn: cn=iduser,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+ou: users
+cn: iduser
+sn: USER_SYS
+userid: userldap@great.ufc.br
+userPassword: 000000
